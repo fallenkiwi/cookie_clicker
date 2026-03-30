@@ -1,6 +1,6 @@
 // Golden Cookie Clicker
 // By RainSlide
-// Automatically click golden cookies and reindeers, won't click wrath cookies.
+// Automatically click golden cookies and reindeers, WILL click wrath cookies.
 // Version 1.0
 // Updated 2022-04-19
 
@@ -28,7 +28,7 @@ if (typeof Game !== "object" || Game === null || !Array.isArray(Game.shimmers)) 
 
 	const apply = (target, _this, args) => {
 		var shimmer = args[0];
-		if ((shimmer.type === "golden" && !shimmer.wrath) || shimmer.type === "reindeer") {
+		if (shimmer.type === "golden" || shimmer.type === "reindeer") {
 			setTimeout(() => shimmer.pop(), 500);
 		}
 		return Reflect.apply(target, _this, args);
