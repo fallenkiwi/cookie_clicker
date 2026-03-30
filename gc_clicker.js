@@ -25,6 +25,7 @@ if (typeof Game !== "object" || Game === null || !Array.isArray(Game.shimmers)) 
 	);
 
 } else {
+	console.log("Reading the golden add on.");
 
 	const apply = (target, _this, args) => {
 		var shimmer = args[0];
@@ -43,4 +44,6 @@ if (typeof Game !== "object" || Game === null || !Array.isArray(Game.shimmers)) 
 
 	typeof Game.Win === "function" &&
 	Game.Win("Third-party");
+
+	console.log("Successfully read the golden add on.");
 }
