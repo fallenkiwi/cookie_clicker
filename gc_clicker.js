@@ -1,10 +1,7 @@
 // Golden Cookie Clicker
-// By RainSlide
-// Automatically click golden cookies and reindeers, WILL click wrath cookies.
-// Version 1.0
-// Updated 2022-04-19
-
-// Cookie Clicker: https://orteil.dashnet.org/cookieclicker/
+// originally by RainSlide
+// Automatically clicks golden cookies, wrath cookies, and reindeers.
+// Automatically clicks on new fortunes.
 
 "use strict";
 
