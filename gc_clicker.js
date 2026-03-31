@@ -1,7 +1,6 @@
 // Golden Cookie Clicker
 // originally by RainSlide
 // Automatically clicks golden cookies, wrath cookies, and reindeers.
-// Automatically clicks on new fortunes.
 
 "use strict";
 
@@ -41,12 +40,6 @@ if (typeof Game !== "object" || Game === null || !Array.isArray(Game.shimmers)) 
 
 	typeof Game.Win === "function" &&
 	Game.Win("Third-party");
-
-	setInterval(function() {
-		if (Game.TickerEffect && Game.TickerEffect.type == 'fortune') {
-			Game.tickerL.click();
-		}
-	}, 3000);
 
 	console.log("Successfully read the golden add on.");
 }
