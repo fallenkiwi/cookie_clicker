@@ -43,22 +43,22 @@ if (typeof Game !== "object" || Game === null || !Array.isArray(Game.shimmers)) 
 	typeof Game.Win === "function" &&
 	Game.Win("Third-party");
 
-	// Auto-click fortune tickers
-	setInterval(function() {
-		if (Game.TickerEffect && Game.TickerEffect.type == 'fortune') {
-			var el = Game.tickerL || document.getElementById('tickerL');
-			if (el) el.click();
-		}
-	}, 3000);
-
-	// Auto-pop normal (non-shiny) wrinklers
-	setInterval(function() {
-		for (var i = 0; i < 12; i++) {
-			if (Game.wrinklers[i].type == 0 && Game.wrinklers[i].sucked > 0) {
-				Game.wrinklers[i].hp = 0;
-			}
-		}
-	}, 1000);
-
 	console.log("Successfully read the golden add on.");
 }
+
+// Auto-click fortune tickers
+setInterval(function() {
+    if (Game.TickerEffect && Game.TickerEffect.type == 'fortune') {
+        var el = Game.tickerL || document.getElementById('tickerL');
+        if (el) el.click();
+    }
+}, 3000);
+
+// Auto-pop normal (non-shiny) wrinklers
+setInterval(function() {
+    for (var i = 0; i < 12; i++) {
+        if (Game.wrinklers[i].type == 0 && Game.wrinklers[i].sucked > 0) {
+            Game.wrinklers[i].hp = 0;
+        }
+    }
+}, 1000);
