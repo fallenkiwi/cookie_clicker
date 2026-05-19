@@ -11,18 +11,18 @@ var fthof = M.spellsById[1];
 async function gogogo() {
     M.castSpell(fthof);
     tower.sell(806);
-    await sleep(1000);
+    await sleep(500);
     M.castSpell(fthof);
     tower.buy(410);
 
-    await sleep(1000);
+    await sleep(500);
     grimoireLumpRefill.click();
     promptOption0.click();
 
-    await sleep(1000);
+    await sleep(500);
     M.castSpell(fthof);
     tower.sell(480);
-    await sleep(1000); // I need to click on the golden cookies on screen
+    await sleep(500); // I need to click on the golden cookies on screen
     M.castSpell(fthof);
 }
 
