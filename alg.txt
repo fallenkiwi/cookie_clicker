@@ -28,3 +28,7 @@ doing a test run with just a regular frenzy
 doing a test run with regular frenzy + building special
     I got to 10 duovigintillion
     but I may not have done it right - I had golden on
+
+doing a test run with regular frenzy + building special
+    I got to 49 duovigintillion
+    but I may not have done it right - I had golden on
