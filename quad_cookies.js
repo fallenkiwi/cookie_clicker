@@ -15,3 +15,5 @@ async function gogogo() {
     M.castSpell(fthof);
     tower.buy(410);
 }
+
+gogogo();
