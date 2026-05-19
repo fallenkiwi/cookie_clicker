@@ -24,3 +24,7 @@ harvest queenbeets
 
 doing a test run with just a regular frenzy
     I got to 800 unvigintillion
+
+doing a test run with regular frenzy + building special
+    I got to 10 duovigintillion
+    but I may not have done it right - I had golden on
