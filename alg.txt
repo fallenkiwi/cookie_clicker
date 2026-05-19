@@ -40,3 +40,7 @@ testing from my save point
         1087 vigintillion
     now with clicking I get
         629 unvigintillion
+        512 unvigintillion - doing the exact same thing
+        747 unvigintillion - doing the exact same thing
+    now with random selling and queenbeets
+        4 duovigintillion
