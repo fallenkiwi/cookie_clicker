@@ -36,5 +36,7 @@ doing a test run with regular frenzy + building special
 testing from my save point
     with golden on
     after running it I get
-    833 vigintillion
-    1087 vigintillion
+        833 vigintillion
+        1087 vigintillion
+    now with clicking I get
+        629 unvigintillion
