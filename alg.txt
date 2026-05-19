@@ -6,6 +6,7 @@ wait for combo
 
 fthof
 sell 806
+    maybe do 810 to take advantage of holding control
 fthof
 buy 410
 lump
@@ -14,5 +15,9 @@ sell 480
 go golden
 click all cookies
 fthof
+sell stuff
+    mine
+    factory
+    what else?
 wait till almost done
 harvest queenbeets
