@@ -34,5 +34,7 @@ doing a test run with regular frenzy + building special
     but I may not have done it right - I had golden on
 
 testing from my save point
+    with golden on
     after running it I get
     833 vigintillion
+    1087 vigintillion
