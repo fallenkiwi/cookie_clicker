@@ -22,7 +22,7 @@ async function gogogo() {
     await sleep(200);
     M.castSpell(fthof);
     tower.sell(480);
-    await sleep(200); // I need to click on the golden cookies on screen
+    await sleep(200);
     M.castSpell(fthof);
 }
 
