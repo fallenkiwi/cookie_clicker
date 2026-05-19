@@ -41,7 +41,23 @@ async function gogogo() {
     await sleep(500);
     M.castSpell(fthof);
 
-
+    await sleep(100);
+    mine.sell(980);
+    factory.sell(958);
+    bank.sell(940);
+    temple.sell(925);
+    tower.sell(1);
+    shipment.sell(881);
+    alchemy.sell(862);
+    portal.sell(849);
+    time_machine.sell(828);
+    antimatter.sell(810);
+    prism.sell(790);
+    chancemaker.sell(779);
+    fractal.sell(763);
+    javascript_console.sell(733);
+    idleverse.sell(681);
+    cortex.sell(655);
 }
 
 gogogo();
