@@ -45,4 +45,9 @@ testing from my save point
     now with random selling and queenbeets
         4 duovigintillion
         10.9 duovigintillion
-    without queenbeets
+    without selling or queenbeets
+        558 unvigintillion
+        393 unvigintillion
+        495 unvigintillion
+        456 unvigintillion
+    with just selling

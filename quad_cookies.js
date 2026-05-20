@@ -41,29 +41,29 @@ async function gogogo() {
     await sleep(500);
     M.castSpell(fthof);
 
-    // await sleep(100);
-    // mine.sell(980); // .3%
-    // factory.sell(958); // .3%
-    // bank.sell(940); // 0%
-    // // temple.sell(925); // 3.7%
-    // tower.sell(37); // 0%
-    // shipment.sell(881); // 0%
-    // alchemy.sell(862); // 0%
-    // portal.sell(849); // 1%
-    // // time_machine.sell(828); // 3.2%
-    // antimatter.sell(810); // .7%
-    // // prism.sell(790); // 1.2%
-    // // chancemaker.sell(779); // 2.4%
-    // // fractal.sell(763); // 8.6%
-    // // javascript_console.sell(733); // 28.7%
-    // // idleverse.sell(681); // 2.9%
-    // // cortex.sell(655); // 12.9%
-    //
-    // // can I buy then sell again for max boost?
-    // for (let i = 0; i < 100; i++) {
-    //     mine.buy(100);
-    //     mine.sell(100);
-    // }
+    await sleep(100);
+    mine.sell(980); // .3%
+    factory.sell(958); // .3%
+    bank.sell(940); // 0%
+    // temple.sell(925); // 3.7%
+    tower.sell(37); // 0%
+    shipment.sell(881); // 0%
+    alchemy.sell(862); // 0%
+    portal.sell(849); // 1%
+    // time_machine.sell(828); // 3.2%
+    antimatter.sell(810); // .7%
+    // prism.sell(790); // 1.2%
+    // chancemaker.sell(779); // 2.4%
+    // fractal.sell(763); // 8.6%
+    // javascript_console.sell(733); // 28.7%
+    // idleverse.sell(681); // 2.9%
+    // cortex.sell(655); // 12.9%
+
+    // can I buy then sell again for max boost?
+    for (let i = 0; i < 100; i++) {
+        mine.buy(100);
+        mine.sell(100);
+    }
 }
 
 gogogo();
