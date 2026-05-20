@@ -41,7 +41,7 @@ async function gogogo() {
     await sleep(500);
     M.castSpell(fthof);
 
-    await sleep(100);
+    await sleep(5000);
     mine.sell(980); // .3%
     factory.sell(958); // .3%
     bank.sell(940); // 0%
