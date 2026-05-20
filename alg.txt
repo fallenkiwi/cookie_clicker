@@ -62,11 +62,15 @@ testing from my save point
         5.7 duovigintillion
     with back and forth buying a lot
         30.7 duovigintillion
-        5.8 duovigintillion
         25.3 duovigintillion
     now with auto harvest
-        63.9 duovigintillion
-        33.6 duovigintillion
-        35.6 duovigintillion
-        61.3 duovigintillion
-        51.6 duovigintillion
+        63 duovigintillion
+        33 duovigintillion
+        35 duovigintillion
+        61 duovigintillion
+        51 duovigintillion
+    now with only selling banks
+        52 duovigintillion
+        46 duovigintillion
+        32 duovigintillion
+        34 duovigintillion
