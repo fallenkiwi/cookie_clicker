@@ -66,7 +66,7 @@ async function gogogo() {
     }
 
     await sleep(5000);
-    gardenTool-1.click();
+    document.getElementById("gardenTool-1").click();
 }
 
 gogogo();
