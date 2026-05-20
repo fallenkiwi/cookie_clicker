@@ -50,4 +50,9 @@ testing from my save point
         393 unvigintillion
         495 unvigintillion
         456 unvigintillion
-    with just selling
+    with just selling and back and forth buying
+        7.0 duovigintillion
+        5.7 duovigintillion
+        5.5 duovigintillion
+        5.7 duovigintillion
+    no back and forth buying
