@@ -47,7 +47,7 @@ async function gogogo() {
         bank.sell(100);
     }
 
-    await sleep(6500);
+    await sleep(6200);
     document.getElementById("gardenTool-1").click();
 }
 
