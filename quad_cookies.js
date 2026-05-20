@@ -58,6 +58,8 @@ async function gogogo() {
     // javascript_console.sell(733); // 28.7%
     // idleverse.sell(681); // 2.9%
     // cortex.sell(655); // 12.9%
+
+    // can I buy then sell again for max boost?
 }
 
 gogogo();
