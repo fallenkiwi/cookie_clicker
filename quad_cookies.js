@@ -60,6 +60,10 @@ async function gogogo() {
     // cortex.sell(655); // 12.9%
 
     // can I buy then sell again for max boost?
+    for (let i = 0; i < 100; i++) {
+        mine.buy(100);
+        mine.sell(100);
+    }
 }
 
 gogogo();
