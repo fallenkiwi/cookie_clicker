@@ -64,6 +64,9 @@ async function gogogo() {
         mine.buy(100);
         mine.sell(100);
     }
+
+    await sleep(5000);
+    gardenTool-1.click();
 }
 
 gogogo();
