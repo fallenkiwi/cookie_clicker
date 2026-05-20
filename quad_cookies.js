@@ -42,7 +42,7 @@ async function gogogo() {
     M.castSpell(fthof);
 
     bank.sell(940);
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 10000; i++) {
         bank.buy(100);
         bank.sell(100);
     }
