@@ -75,3 +75,6 @@ testing from my save point
         32 duovigintillion
         34 duovigintillion
         43 duovigintillion
+    holy bank buy sell
+        it hangs for a bit, but if I get lucky... then
+        259 duovigintillion
