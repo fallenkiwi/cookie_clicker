@@ -64,3 +64,5 @@ testing from my save point
         30.7 duovigintillion
         5.8 duovigintillion
         25.3 duovigintillion
+    now with auto harvest
+        63.9 duovigintillion
