@@ -11,7 +11,7 @@ var tower = Game.ObjectsById[7];
 
 async function gogogo() {
     M.castSpell(fthof);
-    tower.sell(806);
+    tower.sell(900);
     await sleep(500);
     M.castSpell(fthof);
 }
