@@ -7,7 +7,6 @@ function sleep(ms) {
 var M = Game.ObjectsById[7].minigame;
 var fthof = M.spellsById[1];
 
-var bank = Game.ObjectsById[5];
 var tower = Game.ObjectsById[7];
 
 async function gogogo() {
