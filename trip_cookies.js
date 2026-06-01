@@ -20,15 +20,16 @@ async function gogogo() {
     await sleep(500);
     M.castSpell(fthof);
 
-    await sleep(100);
+    await sleep(500);
     grimoireLumpRefill.click();
     promptOption0.click();
 
     valentines.click(event);
 
-    await sleep(100);
+    await sleep(500);
 
     M.castSpell(haggler);
+    await sleep(500);
     M.castSpell(fthof);
 }
 
