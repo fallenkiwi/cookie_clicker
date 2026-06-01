@@ -15,6 +15,7 @@ async function gogogo() {
     M.castSpell(gambler);
     await sleep(2000);
     tower.sell(296);
+    await sleep(500);
     M.castSpell(fthof);
 
     // await sleep(500);
