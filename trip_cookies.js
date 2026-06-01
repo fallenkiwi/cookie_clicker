@@ -18,9 +18,9 @@ async function gogogo() {
     await sleep(500);
     M.castSpell(fthof);
 
-    // await sleep(500);
-    // grimoireLumpRefill.click();
-    // promptOption0.click();
+    await sleep(500);
+    grimoireLumpRefill.click();
+    promptOption0.click();
 
     // M.castSpell(haggler);
     // await sleep(500);
