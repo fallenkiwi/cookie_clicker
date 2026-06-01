@@ -11,6 +11,8 @@ var gambler = M.spellsById[6];
 
 var tower = Game.ObjectsById[7];
 
+var valentines = Game.UpgradesById[184];
+
 async function gogogo() {
     M.castSpell(gambler);
     await sleep(900);
@@ -22,9 +24,8 @@ async function gogogo() {
     grimoireLumpRefill.click();
     promptOption0.click();
 
-    await sleep(500);
-    Game.season = 'easter';
-    Game.recalculateGains = 1;
+    valentines.click(event);
+
 
     // M.castSpell(haggler);
     // await sleep(500);
