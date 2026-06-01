@@ -13,7 +13,7 @@ var tower = Game.ObjectsById[7];
 
 async function gogogo() {
     M.castSpell(gambler);
-    await sleep(700);
+    await sleep(800);
     tower.sell(296);
     await sleep(500);
     M.castSpell(fthof);
