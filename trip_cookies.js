@@ -15,7 +15,7 @@ var valentines = Game.UpgradesById[184];
 
 async function gogogo() {
     M.castSpell(gambler);
-    await sleep(900);
+    await sleep(1000);
     tower.sell(296);
     await sleep(500);
     M.castSpell(fthof);
