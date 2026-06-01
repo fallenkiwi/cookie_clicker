@@ -22,7 +22,9 @@ async function gogogo() {
     grimoireLumpRefill.click();
     promptOption0.click();
 
+    await sleep(500);
     Game.season = 'easter';
+    Game.recalculateGains = 1;
 
     // M.castSpell(haggler);
     // await sleep(500);
